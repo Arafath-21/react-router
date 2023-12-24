@@ -1,0 +1,39 @@
+#navbarSupportedContent li a{
+    border-bottom: 2px solid transparent;
+    color: #1463b3 !important;
+}
+.card img{
+    width: 100% !important;
+}
+nav{
+    box-shadow: 5px 5px 15px #1463b3;
+}
+nav #nav{
+    color: #1463b3 !important;
+}
+#navbarSupportedContent li a:hover{
+    border-bottom: 4px solid #0aaa01;
+    cursor: pointer;
+    color: #0aaa01 !important;
+}
+.card .card-body a{
+    color: #0aaa01 !important;
+
+}
+.card{
+    cursor: pointer !important;
+}
+.card .card-body p{
+    color: #1463b3 !important
+}
+nav{
+    position:sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+}
+
+@media (min-width:990px){
+    nav #nav{
+        display: none;
+    }
+}
